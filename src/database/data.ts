@@ -3,7 +3,6 @@ import {
   IFooterData,
   IHallmarkingData,
   IHeroSectionData,
-  IProcessOverviewData,
   IRingsData,
   ITestimonialData,
 } from "@/utils/interface";
@@ -231,28 +230,21 @@ const BrandCollectionData: IBrandCollectionData = {
   },
 };
 
-const ProcessOverviewData: IProcessOverviewData = {
-  title:
-    "Every piece is made from 925 Sterling Silver, designed in London and hallmarked at the Goldsmiths' Assay Office",
-  brandLogos:
-    "https://www.sergedenimes.com/cdn/shop/files/Hallmark_24.svg?v=1707316242&width=160",
-};
-
 const TestimonialsData: ITestimonialData[] = [
-  {
-    desc: "The quality never wanes. Continuing to offer 925 silver and high-end, quality jewellery at an alarmingly accessible price point",
-    title: "Clash",
-    logo: "https://www.sergedenimes.com/cdn/shop/files/ud5rE97b_400x400_e421dfb4-4dfe-4e39-814c-0e601c729dbd.svg?v=1736887318&width=600",
-  },
   {
     desc: "Serge DeNimes has blended the traditionally clear line between fine jewelry and the fast-paced environment of the trend-dominated fashion industry",
     title: "Culted",
-    logo: "https://www.sergedenimes.com/cdn/shop/files/Logoform-TM_1.svg?v=1696417772&width=600",
+    logo: "https://www.sergedenimes.com/cdn/shop/files/ud5rE97b_400x400_e421dfb4-4dfe-4e39-814c-0e601c729dbd.svg?v=1736887318&width=600",
   },
   {
     desc: "London-based jewellery label Serge DeNimes creates animated signet rings every time",
     title: "Esquire",
     logo: "https://www.sergedenimes.com/cdn/shop/files/serge-denimes-brand-logo-esquire.svg?v=1696417772&width=600",
+  },
+  {
+    desc: "Serge DeNimes has blended the traditionally clear line between fine jewelry and the fast-paced environment of the trend-dominated fashion industry",
+    title: "Culted",
+    logo: "https://www.sergedenimes.com/cdn/shop/files/Logoform-TM_1.svg?v=1696417772&width=600",
   },
   {
     desc: "Delivering goods straight out of London, Serge has maintained a strong presence through its frequent themed collections",
@@ -264,11 +256,11 @@ const TestimonialsData: ITestimonialData[] = [
     title: "GQ",
     logo: "https://www.sergedenimes.com/cdn/shop/files/serge-denimes-brand-logo-gq.svg?v=1696349667&width=600",
   },
-  {
-    desc: "Dive into a world where fashion meets emotion and every piece is a journey towards self-expression",
-    title: "Fault",
-    logo: "https://www.sergedenimes.com/cdn/shop/files/LOGO1.svg?v=1736887331&width=600",
-  },
+  // {
+  //   desc: "Dive into a world where fashion meets emotion and every piece is a journey towards self-expression",
+  //   title: "Fault",
+  //   logo: "https://www.sergedenimes.com/cdn/shop/files/LOGO1.svg?v=1736887331&width=600",
+  // },
 ];
 
 const HallmarkingData: IHallmarkingData[] = [
@@ -341,7 +333,6 @@ export {
   RingsData,
   HeroSectionData,
   BrandCollectionData,
-  ProcessOverviewData,
   TestimonialsData,
   FooterData,
   HallmarkingData,

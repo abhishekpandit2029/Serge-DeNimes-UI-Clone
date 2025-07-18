@@ -9,11 +9,6 @@ export interface ITestimonialData {
   logo: string;
 }
 
-export interface IProcessOverviewData {
-  title: string;
-  brandLogos: string;
-}
-
 export interface IBrandCollectionData {
   [collectionName: string]: CollectionView;
 }
@@ -45,4 +40,21 @@ export interface IHallmarkingData {
   title: string;
   desc: string;
   logo: string;
+}
+
+export interface IBrandOverviewProps {
+  mobileImage: string;
+  desktopImage: string;
+  title: string;
+  textColor: string;
+  buttonTitle?: string;
+}
+
+export interface ICollectionUIProps {
+  image: string;
+  alt: string;
+  flipImage: string;
+  title: string;
+  price: string;
+  isPerle?: boolean;
 }
