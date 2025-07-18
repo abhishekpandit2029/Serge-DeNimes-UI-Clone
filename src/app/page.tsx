@@ -1,13 +1,13 @@
-import ModernCollection from "@/dashboard/components/collection/ModernCollection";
-import PerleCollection from "@/dashboard/components/collection/PerleCollection";
-import CoreCollection from "@/dashboard/components/collection/CoreCollection";
+import ModernCollection from "@/components/collection/ModernCollection";
+import PerleCollection from "@/components/collection/PerleCollection";
+import CoreCollection from "@/components/collection/CoreCollection";
 import { BrandCollectionData, HeroSectionData } from "@/database/data";
-import BrandOverview from "@/dashboard/components/BrandOverview";
-import Footer from "@/dashboard/components/footer/Footer";
-import MobileFooter from "@/dashboard/components/footer/MobileFooter";
-import ProcessOverview from "@/dashboard/components/ProcessOverview";
-import Testimonials, { HallmarkMarks } from "@/dashboard/components/Testimonials";
-import Navbar from "@/dashboard/components/Navbar";
+import BrandOverview from "@/components/BrandOverview";
+import Footer from "@/components/footer/Footer";
+import MobileFooter from "@/components/footer/MobileFooter";
+import ProcessOverview from "@/components/ProcessOverview";
+import Testimonials, { HallmarkMarks } from "@/components/Testimonials";
+import Navbar from "@/components/Navbar";
 
 export default function Home() {
   return (

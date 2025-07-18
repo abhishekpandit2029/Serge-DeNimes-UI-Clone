@@ -29,7 +29,7 @@ export default function Footer() {
                 <div className="flex space-x-4 items-start mt-6 lg:mt-0">
                     {socialIcons.map((icon, index) => (
                         <a key={index} href="#" aria-label={`Social ${index}`}>
-                            <img src={icon} alt={`social-${index}`} className="w-5 h-5" />
+                            <img loading="lazy" src={icon} alt={`social-${index}`} className="w-5 h-5" />
                         </a>
                     ))}
                 </div>

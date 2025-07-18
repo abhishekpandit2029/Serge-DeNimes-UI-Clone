@@ -41,7 +41,7 @@ export default function MobileFooter() {
             <div className="flex space-x-4 items-center justify-center mt-8 lg:mt-0">
                 {socialIcons.map((icon, index) => (
                     <a key={index} href="#" aria-label={`Social ${index}`}>
-                        <img src={icon} alt={`social-${index}`} className="w-4 h-4" />
+                        <img loading="lazy" src={icon} alt={`social-${index}`} className="w-4 h-4" />
                     </a>
                 ))}
             </div>

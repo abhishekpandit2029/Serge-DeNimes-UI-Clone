@@ -57,11 +57,11 @@ export default function Navbar() {
                     }`}><VscMenu /></div>
                 <div className="w-2/4 flex items-center justify-center">
                     <h1
-                        className={`hidden md:block text-2xl font-semibold ${scrolled ? "text-black" : "text-white"}`}
+                        className={`hidden md:block text-[22px] font-semibold ${scrolled ? "text-black" : "text-white"}`}
                     >
                         SERGE DENIMES
                     </h1>
-                    <img
+                    <img loading="lazy"
                         src={scrolled ? "/snapshots/logo.svg" : "/snapshots/logoWhite.svg"}
                         alt="SERGE DENIMES"
                         className="block md:hidden w-[18px] text-white" // Adjust width as needed

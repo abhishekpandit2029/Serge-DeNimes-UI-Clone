@@ -4,12 +4,12 @@ export default function ProcessOverview() {
     return (
         <div className="w-full">
             <div className="font-['NeueHaas'] text-center flex flex-col justify-center items-center space-y-4 my-24">
-                <p className="text-[clamp(19px,2.5vw,29px)] max-w-[550px] text-black leading-snug mx-auto">
+                <p className="text-[clamp(19px,2.5vw,29px)] max-w-[550px] text-black leading-snug mx-[20px]">
                     Every piece is made from 925 Sterling Silver,
                     designed in London and hallmarked at the
                     Goldsmith&apos;s Assay Office
                 </p>
-                <img src="https://www.sergedenimes.com/cdn/shop/files/Hallmark_24.svg" alt="brand-logo" className="w-40" />
+                <img loading="lazy" src="https://www.sergedenimes.com/cdn/shop/files/Hallmark_24.svg" alt="brand-logo" className="w-40" />
             </div>
 
             <div className="w-full mb-20">
