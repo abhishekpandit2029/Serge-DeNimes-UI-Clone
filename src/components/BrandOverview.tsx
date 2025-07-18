@@ -2,7 +2,7 @@ import { IBrandOverviewProps } from "@/utils/interface";
 
 export default function BrandOverview({ mobileImage, desktopImage, title, textColor, buttonTitle }: IBrandOverviewProps) {
     return (
-        <div className="relative w-full h-[100vh] flex items-end justify-center overflow-hidden">
+        <div className="relative w-full h-[140vw] sm:h-[100vh] object-contain flex items-end justify-center overflow-hidden">
             <div
                 className="absolute inset-0 bg-cover bg-center sm:hidden h-[100%] w-[100%]"
                 style={{ backgroundImage: `url(${mobileImage})` }
