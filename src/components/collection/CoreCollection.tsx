@@ -3,11 +3,11 @@ import CollectionUI from './CollectionUI';
 
 export default function CoreCollection() {
     return (
-        <div className="flex flex-wrap justify-between space-y-3 md:space-y-5 m-3.5 md:m-5">
+        <div className="flex flex-wrap justify-between gap-y-3 gap-x-3 sm:gap-y-5 sm:gap-x-5 mb-10 mt-7 sm:mt-10 mx-3.5 sm:mx-5">
             {RingsData?.datasetSecond?.map((item, idx) => (
                 <div
                     key={idx}
-                    className="w-[calc(50%-7px)] lg:w-[calc(25%-15px)]"
+                    className="w-[calc(50%-10px)] lg:w-[calc(25%-15px)]"
                 >
                     <CollectionUI
                         image={item.image}
@@ -19,6 +19,5 @@ export default function CoreCollection() {
                 </div>
             ))}
         </div>
-
     );
 }

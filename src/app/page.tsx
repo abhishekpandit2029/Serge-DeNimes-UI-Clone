@@ -28,6 +28,9 @@ export default function Home() {
       <div className="hidden md:block">
         <Footer />
       </div>
+      <div className="fixed bottom-0 right-5 z-50 font-[verdana] bg-black text-white px-[10px] py-1 rounded-t-sm text-[16px] cursor-pointer">
+        Loyalty Scheme
+      </div>
     </div>
   );
 }

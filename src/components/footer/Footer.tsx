@@ -11,8 +11,8 @@ export default function Footer() {
             <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-6">
                 {FooterData.slice(0, 5).map((item, index) => (
                     <div key={index}>
-                        <h3 className="text-[13px] font-semibold uppercase mb-2">{item.heading}</h3>
-                        <ul className="space-y-1">
+                        <h3 className="text-[13px] font-semibold uppercase mb-3">{item.heading}</h3>
+                        <ul className="space-y-3">
                             {item.subItems.map((subItem, subIndex) => (
                                 <li
                                     key={subIndex}

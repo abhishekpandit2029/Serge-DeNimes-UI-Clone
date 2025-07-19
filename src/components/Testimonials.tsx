@@ -8,7 +8,7 @@ import { HiChevronRight } from "react-icons/hi2";
 
 export default function Testimonials() {
     return (
-        <div className="bg-[#f4f4f4] py-[80px] px-[16px] w-full text-center">
+        <div className="bg-[#f3f3f3] py-[60px] sm:py-[80px] px-[16px] w-full text-center">
             <div className="relative max-w-2xl mx-auto px-4">
                 <button
                     className="absolute left-0 top-1/2 cursor-pointer text-gray-300 text-4xl"
@@ -17,7 +17,7 @@ export default function Testimonials() {
                 </button>
 
                 <div className="text-center px-[30px]">
-                    <p className="text-[clamp(19px,2.5vw,24px)] font-[NeueHaas] italic leading-7 max-w-[400px] mx-auto">
+                    <p className="text-[clamp(19px,4vw,24px)] font-[NeueHaas] italic leading-5 sm:leading-7 max-w-[400px] mx-auto">
                         &quot;{TestimonialsData[0].desc}&quot;
                     </p>
                     <p className="mt-2 text-[12px]">{TestimonialsData[0].title}</p>
@@ -60,7 +60,7 @@ export function HallmarkMarks() {
                 {HallmarkingData.map((item, index) => (
                     <div
                         key={index}
-                        className="flex-shrink-0 p-4 flex items-start gap-4"
+                        className="flex-shrink-0 p-4 flex items-start gap-3"
                     >
                         <img loading="lazy"
                             src={item.logo}

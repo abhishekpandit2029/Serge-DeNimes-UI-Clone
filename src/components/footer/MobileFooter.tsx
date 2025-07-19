@@ -18,7 +18,7 @@ export default function MobileFooter() {
             {FooterData.slice(0, 5).map((section, index) => (
                 <div key={index} className="border-b border-b-gray-400">
                     <button
-                        className="w-full text-[12px] font-[600] flex justify-between items-center px-5 py-4 uppercase"
+                        className="w-full text-[13px] font-[600] flex justify-between items-center px-5 py-4 uppercase"
                         onClick={() => toggleSection(index)}
                     >
                         <pre></pre>

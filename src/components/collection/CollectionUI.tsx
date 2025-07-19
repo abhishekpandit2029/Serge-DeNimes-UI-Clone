@@ -22,8 +22,8 @@ export default function CollectionUI({ image, alt, flipImage, title, price, isPe
             </div>
 
             <div className="pt-2">
-                <h1 className="text-[13px] font-semibold uppercase">{title}</h1>
-                <p className="text-[13px] text-gray-600">{price}</p>
+                <p className="text-[12px] font-[] font-semibold uppercase">{title}</p>
+                <p className="text-[12px] font-[] text-gray-600">{price}</p>
             </div>
         </div>
     );
