@@ -33,7 +33,7 @@ export default function Testimonials() {
             </div>
 
 
-            <div className="relative mt-12 w-full overflow-hidden flex gap-[200px] justify-center items-center">
+            <div className="relative mt-12 w-full overflow-hidden flex gap-[100px] md:gap-[200px] justify-center items-center">
                     {TestimonialsData.map((item, i) => (
                         <img
                             loading="lazy"
