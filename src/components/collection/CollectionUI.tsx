@@ -6,7 +6,7 @@ export default function CollectionUI({ image, alt, flipImage, title, price, isPe
     return (
         <div className="w-full group cursor-pointer">
             <div className="relative w-full aspect-square overflow-hidden bg-gray-100">
-                {isPerle && <div className="absolute rounded-sm top-2 left-2 z-10 bg-black text-white text-[10px] font-semibold px-[5px] py-[2px] uppercase">
+                {isPerle && <div className="absolute rounded-sm top-3 left-3 z-10 bg-black text-white text-[10px] font-semibold px-[5px] py-[2px] uppercase">
                     Perle
                 </div>}
                 <img loading="lazy"

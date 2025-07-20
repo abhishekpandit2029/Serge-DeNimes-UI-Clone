@@ -8,7 +8,7 @@ export default function PerleCollection() {
                 {RingsData?.datasetThird?.map((item, idx) => (
                     <div
                         key={idx}
-                        className="w-[80%] sm:w-[calc(50%-10px)] lg:w-[calc(25%-15px)] shrink-0 lg:shrink"
+                        className="w-[64%] sm:w-[calc(50%-10px)] lg:w-[calc(25%-15px)] shrink-0 lg:shrink"
                     >
                         <CollectionUI
                             image={item.image}
