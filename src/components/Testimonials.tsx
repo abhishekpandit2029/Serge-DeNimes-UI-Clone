@@ -70,7 +70,7 @@ export function HallmarkMarks() {
                         />
                         <div className="min-w-auto">
                             <h3 className="text-[13px] font-bold text-black uppercase">{item.title}</h3>
-                            <p className="text-[13px] font-semibold text-gray-800">{item.desc}</p>
+                            <p className="text-[13px] font-semibold text-gray-800 -mb-0.5">{item.desc}</p>
                             <a
                                 href="#"
                                 className="text-[13px] underline inline-block"

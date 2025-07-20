@@ -4,7 +4,7 @@ export default function ProcessOverview() {
     return (
         <div className="w-full">
             <div className="font-['NeueHaas'] text-center flex flex-col justify-center items-center space-y-4 my-18 sm:my-25">
-                <p className="text-[clamp(19px,3.7vw,29px)] max-w-[550px] text-black leading-snug mx-[48px]">
+                <p className="text-[clamp(19px,3.7vw,29px)] max-w-[550px] text-center text-black leading-snug mx-[48px]">
                     Every piece is made from 925 Sterling Silver,
                     designed in London and hallmarked at the
                     Goldsmith&apos;s Assay Office

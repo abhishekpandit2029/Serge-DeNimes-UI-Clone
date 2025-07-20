@@ -14,7 +14,7 @@ export default function MobileFooter() {
     };
 
     return (
-        <div className="bg-[#f3f3f3] text-black text-sm text-center">
+        <div className="bg-[#f3f3f3] text-black text-sm text-center border-t-[1px] border-t-gray-400">
             {FooterData.slice(0, 5).map((section, index) => (
                 <div key={index} className="border-b border-b-gray-400">
                     <button
@@ -46,7 +46,7 @@ export default function MobileFooter() {
                 ))}
             </div>
 
-            <p className="text-center text-xs py-8 font-medium">
+            <p className="text-center text-xs py-9 font-medium">
                 ©2025 Serge DeNimes. All Rights Reserved.
             </p>
         </div>
