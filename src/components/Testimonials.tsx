@@ -8,42 +8,43 @@ import { HiChevronRight } from "react-icons/hi2";
 
 export default function Testimonials() {
     return (
-        <div className="bg-[#f3f3f3] py-[60px] sm:py-[80px] px-[16px] w-full text-center">
-            <div className="relative max-w-2xl mx-auto px-4">
-                <button
-                    className="absolute left-0 top-1/2 cursor-pointer text-gray-300 text-4xl"
-                >
-                    <HiChevronLeft />
-                </button>
+        <div className="bg-[#f3f3f3] py-[60px] sm:py-[80px] px-[10px] w-full text-center">
+            <div>
+                <div className="relative max-w-2xl mx-auto px-4">
+                    <button
+                        className="absolute left-0 top-1/2 cursor-pointer text-gray-300 text-4xl"
+                    >
+                        <HiChevronLeft />
+                    </button>
 
-                <div className="text-center px-[30px]">
-                    <p className="text-[clamp(19px,4vw,24px)] font-[NeueHaas] italic leading-5 sm:leading-7 max-w-[400px] mx-auto">
-                        &quot;{TestimonialsData[0].desc}&quot;
-                    </p>
-                    <p className="mt-2 text-[12px]">{TestimonialsData[0].title}</p>
+                    <div className="text-center px-[40px] md:px-[30px]">
+                        <p className="text-[clamp(19px,4vw,24px)] font-[NeueHaas] italic leading-5 sm:leading-7 max-w-[400px] mx-auto">
+                            &quot;{TestimonialsData[0].desc}&quot;
+                        </p>
+                        <p className="mt-2 text-[12px]">{TestimonialsData[0].title}</p>
+                    </div>
+
+                    <button
+                        className="absolute right-0 top-1/2 cursor-pointer text-gray-300 text-4xl"
+                    >
+                        <HiChevronRight />
+                    </button>
                 </div>
-
-                <button
-                    className="absolute right-0 top-1/2 cursor-pointer text-gray-300 text-4xl"
-                >
-                    <HiChevronRight />
-                </button>
             </div>
 
-            <div className="relative mt-12 w-full overflow-hidden flex justify-center items-center">
-                <div className="flex gap-[100px] min-w-max">
+
+            <div className="relative mt-12 w-full overflow-hidden flex gap-[200px] justify-center items-center">
                     {TestimonialsData.map((item, i) => (
                         <img
                             loading="lazy"
                             key={i}
                             src={item.logo}
                             alt={item.title}
-                            className={`h-4 md:h-8 transition duration-300 ${i === 2 ? "grayscale-0 opacity-100" : "grayscale opacity-50"
+                            className={`h-4 lg:h-8 transition duration-300 ${i === 2 ? "grayscale-0 opacity-100" : "grayscale opacity-50"
                                 }`}
                             style={{ flexShrink: 0 }}
                         />
                     ))}
-                </div>
             </div>
         </div>
     );

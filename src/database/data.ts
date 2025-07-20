@@ -232,8 +232,8 @@ const BrandCollectionData: IBrandCollectionData = {
 
 const TestimonialsData: ITestimonialData[] = [
   {
-    desc: "Serge DeNimes has blended the traditionally clear line between fine jewelry and the fast-paced environment of the trend-dominated fashion industry",
-    title: "Culted",
+    desc: "The quality never wanes. Continuing to offer 925 silver and high-end, quality jewellery at an alarmingly accessible price point",
+    title: "Clash",
     logo: "https://www.sergedenimes.com/cdn/shop/files/ud5rE97b_400x400_e421dfb4-4dfe-4e39-814c-0e601c729dbd.svg?v=1736887318&width=600",
   },
   {
@@ -244,7 +244,7 @@ const TestimonialsData: ITestimonialData[] = [
   {
     desc: "Serge DeNimes has blended the traditionally clear line between fine jewelry and the fast-paced environment of the trend-dominated fashion industry",
     title: "Culted",
-    logo: "https://www.sergedenimes.com/cdn/shop/files/Logoform-TM_1.svg?v=1696417772&width=600",
+    logo: "https://www.sergedenimes.com/cdn/shop/files/ud5rE97b_400x400_e421dfb4-4dfe-4e39-814c-0e601c729dbd.svg?v=1736887318&width=600",
   },
   {
     desc: "Delivering goods straight out of London, Serge has maintained a strong presence through its frequent themed collections",

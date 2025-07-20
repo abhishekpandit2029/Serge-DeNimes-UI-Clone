@@ -6,7 +6,7 @@ export default function CollectionUI({ image, alt, flipImage, title, price, isPe
     return (
         <div className="w-full group cursor-pointer">
             <div className="relative w-full aspect-square overflow-hidden bg-gray-100">
-                {isPerle && <div className="absolute rounded-sm top-2.5 left-2.5 sm:top-2 sm:left-2 md:top-2.5 md:left-2.5 z-10 bg-black text-white text-[clamp(8px,2vw,10px)] font-semibold px-[5px] py-[2px] uppercase">
+                {isPerle && <div className="absolute rounded-xs top-2.5 left-2.5 sm:top-2 sm:left-2 md:top-2.5 md:left-2.5 z-10 bg-black text-white text-[clamp(6px,2vw,10px)] font-semibold px-[3.4px] pt-[1px] uppercase">
                     Perle
                 </div>}
                 <img loading="lazy"
@@ -22,8 +22,8 @@ export default function CollectionUI({ image, alt, flipImage, title, price, isPe
             </div>
 
             <div className="pt-2">
-                <p className="text-[12px] font-semibold uppercase">{title}</p>
-                <p className="text-[12px] text-gray-600">{price}</p>
+                <p className="text-[12.2px] uppercase" style={{ fontWeight: "600" }}>{title}</p>
+                <p className="text-[12.2px] text-gray-600">{price}</p>
             </div>
         </div>
     );
