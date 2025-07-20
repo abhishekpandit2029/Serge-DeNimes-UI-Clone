@@ -1,5 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 
+import { HiOutlineArrowNarrowRight } from "react-icons/hi";
+
 export default function ProcessOverview() {
     return (
         <div className="w-full">
@@ -30,14 +32,14 @@ export default function ProcessOverview() {
                 <p className="text-[13px]">
                     SIGN UP TO OUR MAILING LIST FOR EXCLUSIVE ACCESS
                 </p>
-                <div className="flex justify-center space-x-0 bg-[#f3f3f3] min-w-[240px] px-4">
+                <div className="flex justify-center space-x-0 bg-[#f3f3f3] min-w-[240px] px-2 md:px-4">
                     <div className="flex items-center gap-1 w-full">
                         <input
                             type="email"
                             placeholder="Email"
-                            className="border border-none border-gray-400 bg-[#f3f3f3] px-1 text-[12px] md:text-[14px] w-full focus:outline-none"
+                            className="border border-none border-gray-400 bg-[#f3f3f3] px-1 text-[13px] md:text-[14px] w-full focus:outline-none"
                         />
-                        <button className="bg-[#f3f3f3] py-[1px] text-[1.5rem]">→</button>
+                        <button className="bg-[#f3f3f3] py-[12px] px-2 md:px-0 text-[14px]"><HiOutlineArrowNarrowRight /></button>
                     </div>
                 </div>
             </div>
