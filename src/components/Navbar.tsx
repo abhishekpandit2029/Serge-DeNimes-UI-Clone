@@ -4,7 +4,7 @@
 
 import React, { useEffect, useState } from "react";
 import { CiSearch } from "react-icons/ci";
-import { HiOutlineShoppingBag } from "react-icons/hi2";
+import { AiOutlineShopping } from "react-icons/ai";
 import { RxHamburgerMenu } from "react-icons/rx";
 
 export default function Navbar() {
@@ -45,7 +45,7 @@ export default function Navbar() {
 
     return (
         <header className="fixed top-0 left-0 right-0 z-50">
-            <div className="bg-black text-white text-[10px] text-center px-10 py-1 font-semibold tracking-wide">
+            <div className="bg-black text-white text-[10px] text-center px-10 py-1">
                 AW25 MODERN RODEO-NOW LIVE
             </div>
 
@@ -53,7 +53,7 @@ export default function Navbar() {
                 className={`transition-all duration-300 flex items-center justify-between p-2 sm:p-4 ${scrolled ? "bg-white shadow" : "bg-transparent"
                     }`}
             >
-                <div className={`w-1/4 text-[23px] font-semibold ${scrolled ? "text-black" : "text-white"
+                <div className={`w-1/4 text-[23px] ${scrolled ? "text-black" : "text-white"
                     }`}><RxHamburgerMenu /></div>
                 <div className="w-2/4 flex items-center justify-center">
                     <h1
@@ -69,7 +69,7 @@ export default function Navbar() {
                 </div>
                 <div className={`w-1/4 flex justify-end gap-4 text-[23px] ${scrolled ? " text-black" : "text-white"}`}>
                     <span><CiSearch height={20} width={20} /></span>
-                    <span><HiOutlineShoppingBag height={20} width={20} /></span>
+                    <span><AiOutlineShopping height={20} width={20} /></span>
                 </div>
             </div>
 

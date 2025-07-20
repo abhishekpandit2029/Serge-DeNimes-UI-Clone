@@ -35,7 +35,7 @@ export default function ProcessOverview() {
                         <input
                             type="email"
                             placeholder="Email"
-                            className="border border-none border-gray-400 bg-[#f3f3f3] px-1 text-[14px] w-full focus:outline-none"
+                            className="border border-none border-gray-400 bg-[#f3f3f3] px-1 text-[12px] md:text-[14px] w-full focus:outline-none"
                         />
                         <button className="bg-[#f3f3f3] py-[1px] text-[1.5rem]">→</button>
                     </div>
