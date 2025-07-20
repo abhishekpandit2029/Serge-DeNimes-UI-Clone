@@ -51,7 +51,7 @@ export default function Testimonials() {
 
 export function HallmarkMarks() {
     return (
-        <div className="relative bg-white py-[60px] px-0 sm:px-[60px] overflow-hidden">
+        <div className="relative bg-white py-[40px] md:py-[60px] px-0 sm:px-[60px] overflow-hidden">
             <div className="absolute left-5 sm:left-15 top-0 bottom-0 w-0 sm:w-30 bg-gradient-to-r from-white to-transparent pointer-events-none z-10" />
 
             <div className="absolute right-5 sm:right-15 top-0 bottom-0 w-0 sm:w-30 bg-gradient-to-l from-white to-transparent pointer-events-none z-10" />
@@ -65,7 +65,7 @@ export function HallmarkMarks() {
                         <img loading="lazy"
                             src={item.logo}
                             alt={item.title}
-                            className="w-12 h-12 object-contain"
+                            className="w-10 h-10 md:w-12 md:h-12 object-contain"
                         />
                         <div className="min-w-auto">
                             <h3 className="text-[13px] font-bold text-black uppercase">{item.title}</h3>
